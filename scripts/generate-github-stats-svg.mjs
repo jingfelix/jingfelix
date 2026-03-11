@@ -220,13 +220,12 @@ function renderSvg(stats) {
       <circle class="rank-circle" cx="-10" cy="8" r="40" />
       <text
         class="ring-number"
-        x="-5"
-        y="4"
-        alignment-baseline="central"
-        dominant-baseline="central"
+        x="-10"
+        y="10"
+        dominant-baseline="middle"
         text-anchor="middle"
       >${escapeXml(formatNumber(stats.totalContributions))}</text>
-      <text class="ring-label" x="-5" y="28" text-anchor="middle">LAST YEAR</text>
+      <text class="ring-label" x="-10" y="28" text-anchor="middle">LAST YEAR</text>
     </g>
     <svg x="0" y="0">
       <g transform="translate(0, 0)">

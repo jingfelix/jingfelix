@@ -8,7 +8,7 @@
   aria-labelledby="titleId descId"
 >
   <title id="titleId">Tianyi Jing&apos;s GitHub Contributions</title>
-  <desc id="descId">658 contributions in the last year. 338 private contributions included.</desc>
+  <desc id="descId">659 contributions in the last year. 338 private contributions included.</desc>
   <style>
     .header {
       font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -117,25 +117,24 @@
       <circle class="rank-circle" cx="-10" cy="8" r="40" />
       <text
         class="ring-number"
-        x="-5"
-        y="4"
-        alignment-baseline="central"
-        dominant-baseline="central"
+        x="-10"
+        y="10"
+        dominant-baseline="middle"
         text-anchor="middle"
-      >658</text>
-      <text class="ring-label" x="-5" y="28" text-anchor="middle">LAST YEAR</text>
+      >659</text>
+      <text class="ring-label" x="-10" y="28" text-anchor="middle">LAST YEAR</text>
     </g>
     <svg x="0" y="0">
       <g transform="translate(0, 0)">
         <g class="stagger" style="animation-delay: 450ms" transform="translate(25, 0)">
           <text class="stat bold" y="12.5">Total Contributions:</text>
-          <text class="stat bold" x="230" y="12.5">658</text>
+          <text class="stat bold" x="230" y="12.5">659</text>
         </g>
       </g>
       <g transform="translate(0, 25)">
         <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
           <text class="stat bold" y="12.5">Public Contributions:</text>
-          <text class="stat bold" x="230" y="12.5">320</text>
+          <text class="stat bold" x="230" y="12.5">321</text>
         </g>
       </g>
       <g transform="translate(0, 50)">
