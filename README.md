@@ -1,4 +1,4 @@
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=jingfelix&bg_color=0,12c2e9,c471ed,f64f59&title_color=ffffff&text_color=ffffff)](https://github.com/anuraghazra/github-readme-stats)
+![GitHub stats](./assets/github-stats.svg)
 <!--
 ### Hello there 👋
 **jingfelix/jingfelix** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

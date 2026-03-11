@@ -1,0 +1,37 @@
+name: Update GitHub Stats SVG
+
+on:
+  schedule:
+    - cron: "17 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate profile stats SVG
+        env:
+          PROFILE_USERNAME: jingfelix
+          GITHUB_TOKEN: ${{ github.token }}
+          GH_STATS_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
+        run: node scripts/generate-github-stats-svg.mjs
+
+      - name: Commit updated SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-stats.svg
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: update GitHub stats SVG"
+          git push
