@@ -145,7 +145,7 @@ function renderSvg(stats) {
       letter-spacing: 1.6px;
     }
     .ring-number {
-      font: 800 22px 'Segoe UI', Ubuntu, Sans-Serif;
+      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif;
       fill: #ffffff;
       animation: scaleInAnimation 0.3s ease-in-out forwards;
     }
@@ -221,12 +221,13 @@ function renderSvg(stats) {
       <text
         class="ring-number"
         x="-10"
-        y="10"
-        dominant-baseline="middle"
+        y="8"
+        alignment-baseline="central"
+        dominant-baseline="central"
         text-anchor="middle"
       >${escapeXml(formatNumber(stats.totalContributions))}</text>
-      <text class="ring-label" x="-10" y="28" text-anchor="middle">LAST YEAR</text>
     </g>
+    <text class="ring-label" x="355" y="109" text-anchor="middle">LAST YEAR</text>
     <svg x="0" y="0">
       <g transform="translate(0, 0)">
         <g class="stagger" style="animation-delay: 450ms" transform="translate(25, 0)">
