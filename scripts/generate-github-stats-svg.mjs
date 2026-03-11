@@ -147,7 +147,7 @@ function renderSvg(stats) {
     .ring-number {
       font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif;
       fill: #ffffff;
-      animation: scaleInAnimation 0.3s ease-in-out forwards;
+      animation: fadeInAnimation 0.3s ease-in-out forwards;
     }
     .ring-label {
       font: 600 10px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -178,14 +178,6 @@ function renderSvg(stats) {
       }
       to {
         stroke-dashoffset: ${progress};
-      }
-    }
-    @keyframes scaleInAnimation {
-      from {
-        transform: translate(-5px, 5px) scale(0);
-      }
-      to {
-        transform: translate(-5px, 5px) scale(1);
       }
     }
     @keyframes fadeInAnimation {
