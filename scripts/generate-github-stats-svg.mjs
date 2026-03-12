@@ -207,7 +207,7 @@ function renderSvg(stats) {
     <text x="0" y="0" class="header" data-testid="header">${escapeXml(title)}</text>
   </g>
   <g data-testid="main-card-body" transform="translate(0, 55)">
-    <g data-testid="rank-circle" transform="translate(365, 47.5)">
+    <g data-testid="rank-circle" transform="translate(365, 43.5)">
       <circle class="rank-circle-rim" cx="-10" cy="8" r="40" />
       <circle class="rank-circle" cx="-10" cy="8" r="40" />
       <text
@@ -219,7 +219,7 @@ function renderSvg(stats) {
         text-anchor="middle"
       >${escapeXml(formatNumber(stats.totalContributions))}</text>
     </g>
-    <text class="ring-label" x="355" y="109" text-anchor="middle">LAST YEAR</text>
+    <text class="ring-label" x="355" y="113" text-anchor="middle">LAST YEAR</text>
     <svg x="0" y="0">
       <g transform="translate(0, 0)">
         <g class="stagger" style="animation-delay: 450ms" transform="translate(25, 0)">

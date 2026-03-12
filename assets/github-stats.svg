@@ -8,7 +8,7 @@
   aria-labelledby="titleId descId"
 >
   <title id="titleId">Tianyi Jing&apos;s GitHub Contributions</title>
-  <desc id="descId">662 contributions in the last year. Public contributions only.</desc>
+  <desc id="descId">662 contributions in the last year. 338 private contributions included.</desc>
   <style>
     .header {
       font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -74,7 +74,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 0;
+        stroke-dashoffset: 123.15043202071989;
       }
     }
     @keyframes fadeInAnimation {
@@ -104,7 +104,7 @@
     <text x="0" y="0" class="header" data-testid="header">Tianyi Jing&apos;s GitHub Contributions</text>
   </g>
   <g data-testid="main-card-body" transform="translate(0, 55)">
-    <g data-testid="rank-circle" transform="translate(365, 47.5)">
+    <g data-testid="rank-circle" transform="translate(365, 43.5)">
       <circle class="rank-circle-rim" cx="-10" cy="8" r="40" />
       <circle class="rank-circle" cx="-10" cy="8" r="40" />
       <text
@@ -116,7 +116,7 @@
         text-anchor="middle"
       >662</text>
     </g>
-    <text class="ring-label" x="355" y="109" text-anchor="middle">LAST YEAR</text>
+    <text class="ring-label" x="355" y="113" text-anchor="middle">LAST YEAR</text>
     <svg x="0" y="0">
       <g transform="translate(0, 0)">
         <g class="stagger" style="animation-delay: 450ms" transform="translate(25, 0)">
@@ -127,24 +127,24 @@
       <g transform="translate(0, 25)">
         <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
           <text class="stat bold" y="12.5">Public Contributions:</text>
-          <text class="stat bold" x="230" y="12.5">662</text>
+          <text class="stat bold" x="230" y="12.5">324</text>
         </g>
       </g>
       <g transform="translate(0, 50)">
         <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
           <text class="stat bold" y="12.5">Private Included:</text>
-          <text class="stat bold" x="230" y="12.5">0</text>
+          <text class="stat bold" x="230" y="12.5">338</text>
         </g>
       </g>
       <g transform="translate(0, 75)">
         <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
           <text class="stat not-bold" y="12.5">Private Share:</text>
-          <text class="stat not-bold" x="230" y="12.5">0%</text>
+          <text class="stat not-bold" x="230" y="12.5">51%</text>
         </g>
       </g>
       <g transform="translate(0, 100)">
         <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
-          <text class="stat not-bold" y="12.5">Public contributions only</text>
+          <text class="stat not-bold" y="12.5">338 private contributions included</text>
         </g>
       </g>
     </svg>
