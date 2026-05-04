@@ -8,7 +8,7 @@
   aria-labelledby="titleId descId"
 >
   <title id="titleId">Tianyi Jing&apos;s GitHub Contributions</title>
-  <desc id="descId">1,008 contributions in the last year. Public contributions only.</desc>
+  <desc id="descId">998 contributions in the last year. Public contributions only.</desc>
   <style>
     .header {
       font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -114,20 +114,20 @@
         alignment-baseline="central"
         dominant-baseline="central"
         text-anchor="middle"
-      >1,008</text>
+      >998</text>
     </g>
     <text class="ring-label" x="355" y="113" text-anchor="middle">LAST YEAR</text>
     <svg x="0" y="0">
       <g transform="translate(0, 0)">
         <g class="stagger" style="animation-delay: 450ms" transform="translate(25, 0)">
           <text class="stat bold" y="12.5">Total Contributions:</text>
-          <text class="stat bold" x="230" y="12.5">1,008</text>
+          <text class="stat bold" x="230" y="12.5">998</text>
         </g>
       </g>
       <g transform="translate(0, 25)">
         <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
           <text class="stat bold" y="12.5">Public Contributions:</text>
-          <text class="stat bold" x="230" y="12.5">1,008</text>
+          <text class="stat bold" x="230" y="12.5">998</text>
         </g>
       </g>
       <g transform="translate(0, 50)">
